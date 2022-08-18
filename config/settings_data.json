@@ -4,7 +4,7 @@
     "text_color": "#3a2a2f",
     "accent_color": "#ff6128",
     "link_color": "#ff6128",
-    "border_color": "#e7e2de",
+    "border_color": "#f7f4f2",
     "background": "#f7f4f2",
     "secondary_background": "#ffffff",
     "error_color": "#f71b1b",
@@ -28,10 +28,11 @@
     "product_label_1_background": "#ff6128",
     "product_label_2_background": "#a95ebe",
     "product_star_color": "#ffb647",
-    "base_text_font_size": 15,
+    "base_text_font_size": 14,
     "heading_font": "itc_avant_garde_gothic_n5",
     "text_font": "basic_commercial_n4",
     "underline_links": true,
+    "currency_code_enabled": false,
     "animation_image_zoom": true,
     "search_mode": "product,article,page",
     "show_vendor": true,
@@ -100,7 +101,7 @@
           "enable_sticky_header": true,
           "logo": "shopify:\/\/shop_images\/revy_logo.png",
           "logo_max_width": 75,
-          "mobile_logo_max_width": 100,
+          "mobile_logo_max_width": 50,
           "show_locale_selector": false,
           "show_country_selector": false,
           "navigation_menu": "main-menu",
@@ -111,7 +112,7 @@
           "navigation_phone_number": "Call us 000-000-0000",
           "navigation_email": "info@yourwebsite.com",
           "show_condensed_search": false,
-          "show_search_filter": false,
+          "show_search_filter": true,
           "search_menu": "category-list",
           "show_search_menu_title": true
         }
@@ -119,31 +120,15 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "text",
-            "settings": {
-              "title": "About the shop",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-            }
-          },
           "footer-1": {
             "type": "links",
             "settings": {
               "menu": "footer"
             }
-          },
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter",
-              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "footer-1"
         ],
         "settings": {
           "show_social_media": true,
@@ -177,44 +162,44 @@
       "static-text-with-icons": {
         "type": "static-text-with-icons",
         "blocks": {
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-credit-card",
+              "title": "お支払方法について",
+              "content": "<p>以下のお支払方法がご利用いただけます。<br\/>・クレジットカード<br\/>（VISA、Master、JCB、Amex）<\/p><p>・PayPal・AmazonPay<br\/>・ApplePay・銀行振込<\/p>"
+            }
+          },
           "static-text-with-icons-0": {
             "type": "item",
             "settings": {
               "icon": "bi-delivery",
-              "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "送料について",
+              "content": "<p>東京都・神奈川県・千葉県・埼玉県の一部地域が送料無料となります。送料無料エリアについてはこちらをご確認ください。<\/p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-fast-delivery",
+              "title": "出荷日程について",
+              "content": "<p>在庫がある商品につきましては、ご注文確認後（前払いの場合はご入金確認後）、3営業日以内に出荷させていただきます。<\/p>"
             }
           },
           "static-text-with-icons-1": {
             "type": "item",
             "settings": {
               "icon": "bi-returns",
-              "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
-            }
-          },
-          "static-text-with-icons-2": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-customer-support",
-              "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
-            }
-          },
-          "static-text-with-icons-3": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-secure-payment",
-              "title": "Secure payments",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "返品について",
+              "content": "<p>【返品を受付ける条件】<br\/>お客様ご都合の返品は受け付けておりません。未開封・未使用のもので、商品ご到着後7日以内にメールにてご連絡いただいたもののみお受けいたします。<\/p>"
             }
           }
         },
         "block_order": [
+          "static-text-with-icons-3",
           "static-text-with-icons-0",
-          "static-text-with-icons-1",
           "static-text-with-icons-2",
-          "static-text-with-icons-3"
+          "static-text-with-icons-1"
         ],
         "settings": {
           "show_section": true,

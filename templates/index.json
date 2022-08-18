@@ -41,101 +41,131 @@
         "c2bf91ea-228f-4330-bbe7-bcd2ab53ccd8"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "preserve_ratio",
         "carousel_effect": "slide",
         "autoplay": true,
         "cycle_speed": 8
       }
     },
-    "165838962567cf1cf6": {
-      "type": "logo-list",
+    "1660806783987a186d": {
+      "type": "mosaic",
       "blocks": {
-        "16583896256ea96737-0": {
-          "type": "logo",
+        "1660806782b92906b1-0": {
+          "type": "item",
           "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/spoon-g8efd5a010_1920.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "KITCHEN&DINING",
+            "content": "テキストテキストテキストテキストテキストテキスト",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#ff6128",
+            "button_text": "view more",
+            "link": "shopify:\/\/collections\/kitchen-dining"
           }
         },
-        "16583896256ea96737-1": {
-          "type": "logo",
+        "1660806782b92906b1-1": {
+          "type": "item",
           "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/pixta_24086435_M.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "HARDWARE&D.I.Y",
+            "content": "テキストテキストテキストテキストテキストテキスト",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#ff6128",
+            "button_text": "view more",
+            "link": "shopify:\/\/collections\/hardware-d-i-y"
           }
         },
-        "16583896256ea96737-2": {
-          "type": "logo",
+        "1660806782b92906b1-2": {
+          "type": "item",
           "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/living-room-g16cf209d8_1920.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 40,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "FUNITURE",
+            "content": "テキストテキストテキストテキストテキストテキストテキストテキストテキスト",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#ff6128",
+            "button_text": "view more",
+            "link": "shopify:\/\/collections\/furniture"
           }
         },
-        "16583896256ea96737-3": {
-          "type": "logo",
-          "disabled": true,
+        "1660806782b92906b1-3": {
+          "type": "item",
           "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/plant-g5621f3380_1920.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#ffffff",
+            "title": "GARDEN&GREEN",
+            "content": "テキストテキストテキストテキストテキストテキスト",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#ff6128",
+            "button_text": "view more",
+            "link": "shopify:\/\/collections\/garden-green"
           }
         },
-        "16583896256ea96737-4": {
-          "type": "logo",
+        "1660806782b92906b1-4": {
+          "type": "item",
           "settings": {
-            "link": ""
-          }
-        },
-        "16583896256ea96737-5": {
-          "type": "logo",
-          "settings": {
-            "link": ""
+            "image": "shopify:\/\/shop_images\/bread-gdff776287_1920.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#000000",
+            "title": "FOOD",
+            "content": "テキストテキストテキストテキストテキストテキスト",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#ff6128",
+            "button_text": "view more",
+            "link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
-        "16583896256ea96737-0",
-        "16583896256ea96737-1",
-        "16583896256ea96737-2",
-        "16583896256ea96737-3",
-        "16583896256ea96737-4",
-        "16583896256ea96737-5"
+        "1660806782b92906b1-0",
+        "1660806782b92906b1-1",
+        "1660806782b92906b1-2",
+        "1660806782b92906b1-3",
+        "1660806782b92906b1-4"
       ],
       "settings": {
-        "title": "Logo list",
-        "link_title": "",
-        "link": ""
+        "section_size": "medium"
       }
     },
     "16583899880534153c": {
       "type": "promotion-list",
+      "disabled": true,
       "blocks": {
         "16583899889fdd1615-0": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/living-room-g16cf209d8_1920.jpg",
+            "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#6f42ef",
             "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "<p>Tell more about your product, collection...<\/p>",
+            "title": "FUNITURE",
+            "content": "<p>テキストテキストテキスト<\/p>",
             "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#6f42ef",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
-        "16583899889fdd1615-1": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#fc2a68",
-            "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "<p>Tell more about your product, collection...<\/p>",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#fc2a68",
+            "button_background": "#ff6128",
+            "button_text_color": "#ffffff",
             "button_text": "Learn more",
             "button_link": ""
           }
@@ -143,16 +173,35 @@
         "16583899889fdd1615-2": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/plant-g5621f3380_1920.jpg",
+            "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#26c1ce",
             "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "<p>Tell more about your product, collection...<\/p>",
+            "title": "観葉植物",
+            "content": "<p>テキストテキストテキスト<\/p>",
             "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#26c1ce",
+            "button_background": "#ff6128",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "16583899889fdd1615-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bread-gdff776287_1920.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#ee0000",
+            "text_color": "#ffffff",
+            "title": "FOOD",
+            "content": "<p>テキストテキスト<\/p>",
+            "content_position": "top_left",
+            "button_background": "#ff6128",
+            "button_text_color": "#ffffff",
             "button_text": "Learn more",
             "button_link": ""
           }
@@ -160,8 +209,8 @@
       },
       "block_order": [
         "16583899889fdd1615-0",
-        "16583899889fdd1615-1",
-        "16583899889fdd1615-2"
+        "16583899889fdd1615-2",
+        "16583899889fdd1615-1"
       ],
       "settings": {
         "expand_items": false,
@@ -173,7 +222,7 @@
       "type": "collection-with-image",
       "settings": {
         "collection": "dulton",
-        "products_count": 12,
+        "products_count": 20,
         "show_quick_buy": true,
         "background": "#001860",
         "text_color": "#ffe826",
@@ -192,6 +241,7 @@
           "type": "collection",
           "settings": {
             "collection": "furniture",
+            "image": "shopify:\/\/shop_images\/living-room-g16cf209d8_1920.jpg",
             "link": "shopify:\/\/collections\/furniture"
           }
         },
@@ -199,6 +249,7 @@
           "type": "collection",
           "settings": {
             "collection": "house-weare",
+            "image": "shopify:\/\/shop_images\/veronika-jorjobert-3M87xUEEdfE-unsplash.jpg",
             "link": "shopify:\/\/collections\/house-weare"
           }
         },
@@ -206,6 +257,7 @@
           "type": "collection",
           "settings": {
             "collection": "hardware-d-i-y",
+            "image": "shopify:\/\/shop_images\/pixta_24086435_M.jpg",
             "link": "shopify:\/\/collections\/hardware-d-i-y"
           }
         },
@@ -213,6 +265,7 @@
           "type": "collection",
           "settings": {
             "collection": "garden-green",
+            "image": "shopify:\/\/shop_images\/plant-g5621f3380_1920.jpg",
             "link": ""
           }
         },
@@ -220,6 +273,7 @@
           "type": "collection",
           "settings": {
             "collection": "kitchen-dining",
+            "image": "shopify:\/\/shop_images\/spoon-g8efd5a010_1920.jpg",
             "link": ""
           }
         },
@@ -227,6 +281,7 @@
           "type": "collection",
           "settings": {
             "collection": "stationery-glasses-other",
+            "image": "shopify:\/\/shop_images\/marissa-grootes-McomGcCj6IQ-unsplash.jpg",
             "link": ""
           }
         }
@@ -273,16 +328,53 @@
         "title": "ストア情報",
         "html": "<div style=\"display: flex; gap: 40px; padding: 20px; background-color: #fff;\">\n\n<div style=\"width: 40%;\">\n<h2>REVYS THOMAS<\/h2>\n<p style=\"margin-bottom:20px;\">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<\/p>\n<ul style=\"margin-bottom: 60px;\">\n<li>郵便番号：〒612-8293<\/li>\n<li>住所：京都府京都市伏見区横大路橋本5−1<\/li>\n<li>電話番号：000-0000-0000<\/li>\n<li>営業時間：10:00 - 20:00<\/li>\n<\/ul>\n<div style=\"width: 70%; text-align: center; padding: 10px 0;background-color: #FF6128;\"><a href=\"#\" style=\"text-decoration:none;  color: #fff;\">詳しくはこちら<\/a><\/div>\n<\/div>\n\n<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3271.1772768307906!2d135.74174711544183!3d34.927090680377106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600105650d198ffd%3A0xe25c5641d5497c56!2z44CSNjEyLTgyOTMg5Lqs6YO95bqc5Lqs6YO95biC5LyP6KaL5Yy65qiq5aSn6Lev5qmL5pys77yV4oiS77yR!5e0!3m2!1sja!2sjp!4v1658825413226!5m2!1sja!2sjp\" width=\"1000\" height=\"400\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n\n<\/div>"
       }
+    },
+    "165838962567cf1cf6": {
+      "type": "logo-list",
+      "blocks": {
+        "16583896256ea96737-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dulton_logo.png",
+            "link": ""
+          }
+        },
+        "16583896256ea96737-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kyono_logo_4x-8.png",
+            "link": ""
+          }
+        },
+        "16583896256ea96737-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/555logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583896256ea96737-0",
+        "16583896256ea96737-1",
+        "16583896256ea96737-2"
+      ],
+      "settings": {
+        "title": "",
+        "link_title": "",
+        "link": ""
+      }
     }
   },
   "order": [
     "slideshow",
-    "165838962567cf1cf6",
+    "1660806783987a186d",
     "16583899880534153c",
     "1658389789798e1617",
     "collection-list",
     "1658819354d9c6f68b",
     "165838994504577542",
-    "16588256851cff19a7"
+    "16588256851cff19a7",
+    "165838962567cf1cf6"
   ]
 }

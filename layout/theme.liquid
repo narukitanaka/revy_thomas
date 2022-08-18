@@ -36,6 +36,8 @@
     <link rel="dns-prefetch" href="https://maps.googleapis.com">
     <link rel="dns-prefetch" href="https://maps.gstatic.com">
 
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
     {% render 'social-meta-tags' %}
     {% render 'css-variables' %}
 
