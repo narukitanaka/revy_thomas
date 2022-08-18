@@ -6,24 +6,183 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/revys_Kv.png",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
           }
         },
-        "slide-2": {
+        "c2bf91ea-228f-4330-bbe7-bcd2ab53ccd8": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "slide-1",
-        "slide-2"
+        "c2bf91ea-228f-4330-bbe7-bcd2ab53ccd8"
       ],
       "settings": {
+        "edge_to_edge": false,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 8
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "165838962567cf1cf6": {
+      "type": "logo-list",
+      "blocks": {
+        "16583896256ea96737-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16583896256ea96737-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16583896256ea96737-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16583896256ea96737-3": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "16583896256ea96737-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16583896256ea96737-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583896256ea96737-0",
+        "16583896256ea96737-1",
+        "16583896256ea96737-2",
+        "16583896256ea96737-3",
+        "16583896256ea96737-4",
+        "16583896256ea96737-5"
+      ],
       "settings": {
+        "title": "Logo list",
+        "link_title": "",
+        "link": ""
+      }
+    },
+    "16583899880534153c": {
+      "type": "promotion-list",
+      "blocks": {
+        "16583899889fdd1615-0": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "<p>Tell more about your product, collection...<\/p>",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#6f42ef",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "16583899889fdd1615-1": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "<p>Tell more about your product, collection...<\/p>",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "16583899889fdd1615-2": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "Your heading",
+            "content": "<p>Tell more about your product, collection...<\/p>",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583899889fdd1615-0",
+        "16583899889fdd1615-1",
+        "16583899889fdd1615-2"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "1658389789798e1617": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "dulton",
+        "products_count": 12,
+        "show_quick_buy": true,
+        "background": "#001860",
+        "text_color": "#ffe826",
+        "title": "DULTON",
+        "content": "DULTONのおすすめアイテム",
+        "button_background": "#ffe826",
+        "button_text_color": "#001860",
+        "button_text": "DLUTON商品一覧",
+        "button_link": "shopify:\/\/collections\/dulton"
       }
     },
     "collection-list": {
@@ -32,31 +191,43 @@
         "collection-1": {
           "type": "collection",
           "settings": {
+            "collection": "furniture",
+            "link": "shopify:\/\/collections\/furniture"
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
+            "collection": "house-weare",
+            "link": "shopify:\/\/collections\/house-weare"
           }
         },
         "collection-3": {
           "type": "collection",
           "settings": {
+            "collection": "hardware-d-i-y",
+            "link": "shopify:\/\/collections\/hardware-d-i-y"
           }
         },
         "collection-4": {
           "type": "collection",
           "settings": {
+            "collection": "garden-green",
+            "link": ""
           }
         },
         "collection-5": {
           "type": "collection",
           "settings": {
+            "collection": "kitchen-dining",
+            "link": ""
           }
         },
         "collection-6": {
           "type": "collection",
           "settings": {
+            "collection": "stationery-glasses-other",
+            "link": ""
           }
         }
       },
@@ -69,100 +240,49 @@
         "collection-6"
       ],
       "settings": {
+        "title": "コレクション",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "1658819354d9c6f68b": {
+      "type": "featured-collection",
       "settings": {
+        "collection": "ranking",
+        "title": "人気アイテム",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": "shopify:\/\/collections\/ranking"
       }
     },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "product-meta": {
-          "type": "product_meta",
-          "settings": {
-          }
-        },
-        "featured-description": {
-          "type": "featured_description",
-          "settings": {
-          }
-        },
-        "variant-selector": {
-          "type": "variant_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "product-meta",
-        "featured-description",
-        "variant-selector",
-        "buy-buttons"
-      ],
+    "165838994504577542": {
+      "type": "recently-viewed-products",
       "settings": {
+        "title": "最近チェックしたアイテム",
+        "show_quick_buy": true
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
+    "16588256851cff19a7": {
+      "type": "custom-html",
       "settings": {
-      }
-    },
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon-1": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-delivery",
-            "title": "Free delivery worldwide"
-          }
-        },
-        "icon-2": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-returns",
-            "title": "Satisfied or refunded"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Top-notch support"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-secure-payment",
-            "title": "Secure payments"
-          }
-        }
-      },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
-      "settings": {
+        "title": "ストア情報",
+        "html": "<div style=\"display: flex; gap: 40px; padding: 20px; background-color: #fff;\">\n\n<div style=\"width: 40%;\">\n<h2>REVYS THOMAS<\/h2>\n<p style=\"margin-bottom:20px;\">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<\/p>\n<ul style=\"margin-bottom: 60px;\">\n<li>郵便番号：〒612-8293<\/li>\n<li>住所：京都府京都市伏見区横大路橋本5−1<\/li>\n<li>電話番号：000-0000-0000<\/li>\n<li>営業時間：10:00 - 20:00<\/li>\n<\/ul>\n<div style=\"width: 70%; text-align: center; padding: 10px 0;background-color: #FF6128;\"><a href=\"#\" style=\"text-decoration:none;  color: #fff;\">詳しくはこちら<\/a><\/div>\n<\/div>\n\n<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3271.1772768307906!2d135.74174711544183!3d34.927090680377106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600105650d198ffd%3A0xe25c5641d5497c56!2z44CSNjEyLTgyOTMg5Lqs6YO95bqc5Lqs6YO95biC5LyP6KaL5Yy65qiq5aSn6Lev5qmL5pys77yV4oiS77yR!5e0!3m2!1sja!2sjp!4v1658825413226!5m2!1sja!2sjp\" width=\"1000\" height=\"400\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>\n\n<\/div>"
       }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection",
+    "165838962567cf1cf6",
+    "16583899880534153c",
+    "1658389789798e1617",
     "collection-list",
-    "newsletter",
-    "featured-product",
-    "blog-posts",
-    "text-with-icons"
+    "1658819354d9c6f68b",
+    "165838994504577542",
+    "16588256851cff19a7"
   ]
 }

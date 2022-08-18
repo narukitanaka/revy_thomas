@@ -2,7 +2,58 @@
   "sections": {
     "main": {
       "type": "main-collections-list",
+      "blocks": {
+        "1416d6c1-5153-4358-a869-2dfbbe42e292": {
+          "type": "collection",
+          "settings": {
+            "collection": "dulton"
+          }
+        },
+        "65fb00bf-ec87-4fbf-87ce-ed32b6b80fc4": {
+          "type": "collection",
+          "settings": {
+            "collection": "furniture"
+          }
+        },
+        "306c8603-cbf6-4998-95d6-ca15db9137c1": {
+          "type": "collection",
+          "settings": {
+            "collection": "house-weare"
+          }
+        },
+        "8778a825-e6c2-44da-b0ca-78ef36a9d5cf": {
+          "type": "collection",
+          "settings": {
+            "collection": "hardware-d-i-y"
+          }
+        },
+        "f3bcff4a-6916-4fdf-a8b8-4a5b24e4ca30": {
+          "type": "collection",
+          "settings": {
+            "collection": "kitchen-dining"
+          }
+        },
+        "ea83779a-5400-405d-9a5d-039f967304de": {
+          "type": "collection",
+          "settings": {
+            "collection": "stationery-glasses-other"
+          }
+        }
+      },
+      "block_order": [
+        "1416d6c1-5153-4358-a869-2dfbbe42e292",
+        "65fb00bf-ec87-4fbf-87ce-ed32b6b80fc4",
+        "306c8603-cbf6-4998-95d6-ca15db9137c1",
+        "8778a825-e6c2-44da-b0ca-78ef36a9d5cf",
+        "f3bcff4a-6916-4fdf-a8b8-4a5b24e4ca30",
+        "ea83779a-5400-405d-9a5d-039f967304de"
+      ],
       "settings": {
+        "collections_to_show": "selected",
+        "collection_linklist": "",
+        "show_collection_title": true,
+        "show_collection_overlay": true,
+        "collection_overlay_opacity": 20
       }
     }
   },

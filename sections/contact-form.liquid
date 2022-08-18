@@ -31,7 +31,7 @@
             </div>
           {%- endif -%}
 
-          <div class="form__input-row">
+          <!-- <div class="form__input-row">
             <div class="form__input-wrapper form__input-wrapper--labelled">
               <input id="contact-form-name" type="text" class="form__field form__field--text {% if customer.name != blank %}is-filled{% endif %}" name="contact[name]" aria-label="{{ 'contact.form.name' | t }}" required {% if customer %}value="{{ customer.name }}"{% endif %}>
               <label for="contact-form-name" class="form__floating-label">{{ 'contact.form.name' | t }}</label>
@@ -41,6 +41,16 @@
               <input id="contact-form-email" type="email" class="form__field form__field--text {% if customer.email != blank %}is-filled{% endif %}" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" required {% if customer %}value="{{ customer.email }}"{% endif %} {% if form.errors contains 'email' %}aria-invalid="true" aria-describedby="contact-form-error"{% endif %}>
               <label for="contact-form-email" class="form__floating-label">{{ 'contact.form.email' | t }}</label>
             </div>
+          </div> -->
+
+          <div class="form__input-wrapper form__input-wrapper--labelled">
+            <input id="contact-form-name" type="text" class="form__field form__field--text {% if customer.name != blank %}is-filled{% endif %}" name="contact[name]" aria-label="{{ 'contact.form.name' | t }}" required {% if customer %}value="{{ customer.name }}"{% endif %}>
+            <label for="contact-form-name" class="form__floating-label">{{ 'contact.form.name' | t }}</label>
+          </div>
+
+          <div class="form__input-wrapper form__input-wrapper--labelled">
+            <input id="contact-form-email" type="email" class="form__field form__field--text {% if customer.email != blank %}is-filled{% endif %}" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" required {% if customer %}value="{{ customer.email }}"{% endif %} {% if form.errors contains 'email' %}aria-invalid="true" aria-describedby="contact-form-error"{% endif %}>
+            <label for="contact-form-email" class="form__floating-label">{{ 'contact.form.email' | t }}</label>
           </div>
 
           {%- for block in section.blocks -%}

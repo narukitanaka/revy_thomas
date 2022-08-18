@@ -68,7 +68,7 @@
       "open_search": "開く",
       "close_search": "閉じる",
       "clear": "消去",
-      "input_placeholder": "検索。。。",
+      "input_placeholder": "検索...",
       "all_categories": "すべてのカテゴリー",
       "no_results": "結果が見つかりません",
       "submit": "検索",
@@ -106,7 +106,7 @@
       "pages_with_terms": "\"{{terms}}\"のページ",
       "pages_and_articles_with_terms": "\"{{terms}}\"のページとブログ投稿",
       "content": "以下の検索バーを使用して、製品を見つけてください：",
-      "input_placeholder": "検索。。。",
+      "input_placeholder": "検索...",
       "no_results_with_terms": "\"{{terms}}\"の検索が見つかりませんでした",
       "go_back_home": "または、ここをクリックしてホームに戻ります",
       "results_count": {

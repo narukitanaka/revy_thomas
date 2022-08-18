@@ -2,12 +2,39 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
     "contact-form": {
       "type": "contact-form",
+      "blocks": {
+        "c81fea29-6543-4ff6-94f3-6f1182e1e2e9": {
+          "type": "text",
+          "settings": {
+            "title": "電話番号",
+            "use_long_text": false,
+            "is_required": true
+          }
+        },
+        "cb7d8ecb-a106-42ab-910d-ea56dd89c086": {
+          "type": "dropdown",
+          "settings": {
+            "title": "件名(お選びください)",
+            "values": "商品に関するお問い合わせ, 商品不良に関するお問い合わせ, 欠品商品に関するお問い合わせ, 購入方法に関するお問い合わせ, 配送に関するお問い合わせ, 返品に関するお問い合わせ, その他のお問い合わせ"
+          }
+        }
+      },
+      "block_order": [
+        "c81fea29-6543-4ff6-94f3-6f1182e1e2e9",
+        "cb7d8ecb-a106-42ab-910d-ea56dd89c086"
+      ],
       "settings": {
+        "form_heading": "お問い合わせ",
+        "form_content": "<p>当店へのご要望は、下記フォームにご記入のうえ送信してください。<br\/>商品についてお問い合わせいただく場合は、商品名もしくは品番の記載をお願いいたします。<\/p>",
+        "show_store_info": false,
+        "store_heading": "Find us",
+        "store_info": ""
       }
     }
   },
