@@ -2,7 +2,113 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "166130980888683cff": {
+      "type": "rich-text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "ご利用ガイド",
+        "content": "",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "166131290880fada4c": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<section class=\"order_tut\">\n<h3 class=\"order_tut_title\">ご注文方法<\/h3>\n<div class=\"order_tut_area\">\n<div class=\"order_tut_box\">\n<img src=\"\" alt=\"\">\n<p>STEP1<\/p>\n<p>ご注文<\/p>\n<\/div>\n<div class=\"order_tut_box\">\n<img src=\"\" alt=\"\">\n<p>STEP2<\/p>\n<p>ご注文内容の確認<\/p>\n<\/div>\n<div class=\"order_tut_box\">\n<img src=\"\" alt=\"\">\n<p>STEP3<\/p>\n<p>商品お届け日程の変更<\/p>\n<\/div>\n<div class=\"order_tut_box\">\n<img src=\"\" alt=\"\">\n<p>STEP4<\/p>\n<p>商品のお届け完了<\/p>\n<\/div>\n<\/div>\n<\/section>"
+      }
+    },
+    "166131003006feaad7": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 25,
+        "title": "1.商品の選択",
+        "content": "<p>商品ページの「カートに入れる」をクリックしてご希望の商品をカートに入れます。<br\/>※商品の在庫はカートに入れた時点では確保されず、決済完了後に確保されます。<\/p>",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "1661310221a36e8a24": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 25,
+        "title": "2.商品の追加、数量の変更",
+        "content": "<p>他の商品も同時にご購入される場合は「買い物を続ける」をクリックしてください。<br\/>同じ商品を複数ご希望の場合は数量欄にご希望の数を入力し、「再計算する」をクリックしてください。<br\/>カートの内容の商品で精算をする場合は「ご購入手続きへ」をクリックしてください。<\/p>",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "16613102934552b88c": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 25,
+        "title": "3.購入手続き：ログイン",
+        "content": "<p>既に会員登録がお済のお客様は、ID とパスワードを入力し、「ログイン」をクリックしてください。<br\/>会員登録がお済でないお客様は「会員登録」に進んで頂くと新規会員登録画面に進みます。<br\/>会員登録をせずにご購入いただくことも可能です。<\/p>",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "16613104047789fa9f": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 25,
+        "title": "4.お届け先・お支払方法の選択",
+        "content": "<p>商品のお届け先を選択、もしくは入力し、お支払方法を選択してください。<\/p>",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "1661310408537c268c": {
+      "type": "image-with-text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 25,
+        "title": "5.お支払い情報の入力、注文確定",
+        "content": "<p>ご注文内容の最終確認画面として、商品代金、消費税、送料、(代金引換手数料)、合計金額が表示されます。<br\/>お支払方法でクレジットカードを選択された場合は、クレジットカード情報を入力してください。<br\/>内容を確認し、「ご注文を確定する」をクリックしてください。<br\/>ご注文受付完了後、自動返信メールでご案内した内容で手配します。<\/p><p>※発送完了後にも「発送完了メール」を自動配信しております。<\/p>",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "16613210575183ae35": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<section class=\"pay_tut\">\n<h3>お支払い方法について<\/h3>\n<p>下記方法よりお選び頂けます。<\/p>\n<h4>クレジットカード決済<\/h4>\n<p>VISA,Mastarcard,JCB,AMEX,Dinersがご利用頂けます。<br>\nクレジットカード払いの支払回数は一括のみとなります。<br>\nなお、当社ではSSL(セキュア・ソケット・レイヤー) というシステムを利用しているため、カード番号は暗号化されて送信されます。<\/p>\n<div class=\"pay_card\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<\/div>\n<h4>代引き交換<\/h4>\n<p>商品受取時に代金引換を配送員にお支払いください。<br>\n商品代金と送料に別途下記の代金引換手数料を加えた合計金額がお支払い総額となります。<br>\nお支払いは現金のみの取り扱いとなっております。<\/p>\n<table>\n<tr>\n<th>商品代引き<\/th>\n<th>代引き手数料<\/th>\n<\/tr>\n<tr>\n<td>税込1万円以下<\/td>\n<td>300円+税<\/td>\n<\/tr>\n<tr>\n<td>3万円以下<\/td>\n<td>400円+税<\/td>\n<\/tr>\n<tr>\n<td>10万円以下<\/td>\n<td>600円+税<\/td>\n<\/tr>\n<tr>\n<td>30万円以下<\/td>\n<td>1,000円+税<\/td>\n<\/tr>\n<\/table>\n<small>［注意点］<br>\n※ご不在等の場合は配送業者が１週間商品を保管します。<br>\nその間にお客様と連絡がつかない場合は、キャンセル扱いになります。<br>\nキャンセルとなった商品の再発送はできませんのであらかじめご了承ください。<br>\n※お届けの際の特殊な搬入作業費など、商品以外のご決済は代金引換でお支払いいただくことができません。<\/small>\n\n<\/section>"
+      }
+    },
+    "1661324862e08c5789": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<section class=\"delivery_tut\">\n<h3>お届けについて<\/h3>\n<p>通常在庫のある商品の場合はご注文から翌2~3営業日以内で発送します。<br>\n※土日祝日は弊社休業日を頂戴しておりますため、出荷することができません。<br>\n※イベント開催時・繁忙時期はお届けまで通常よりお時間をいただく場合がございます。<br>\n※大型商品のお届けは発送から3日~7日ほどお時間を頂く場合がございます。<br>\n※大型商品の配送時間は指定できません。<\/p>\n<p>またお届け時間を以下の時間帯からお選びいただけます。<br>\nご注文の内容確認画面の配送希望時間帯からご希望をご選択ください。<\/p>\n<table>\n<tr>\n<th colspan=\"5\">お選び頂ける時間帯<\/th>\n<\/tr>\n<tr>\n<td>午前中<\/td>\n<td>14時-16時<\/td>\n<td>16時-18時<\/td>\n<td>18時-20時<\/td>\n<td>19時-21時<\/td>\n<\/tr>\n<\/table>\n<p> 大型商品はお届け当日に配送業者より連絡をします。<br>\n(お届け先地域によっては前日のご連絡となる場合があります。)<\/p>\n<h4>商品のお届け日程変更方法<\/h4>\n<p>注文完了後の配送指定日時の変更はお受けしておりません。<br>\nご変更をご希望の場合は、「ご注文商品の発送のお知らせ」メールに記載している運送会社にお問い合わせください。<\/p>\n<\/section>"
+      }
+    },
+    "16613266371f779f5c": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<section class=\"deriver_fee_tut\">\n<h3>送料について<\/h3>\n<p>6,000円以上(税込)のご購入で送料サービスとなります。<br>\nご購入金額が6,000円以下(税込)の場合につきましては一律880円(税込)となります。<br>\n※大型商品は対象外となります。<br>\n※一部地域はご購入金額に関わらず送料が発生します。<\/p>\n<h4>大型商品につて<\/h3>\n<p>通常便で配送出来ない大型商品はヤマト家財便にて配送致します。<br>\nお届け先での開梱・設置も送料に含まれております。<br>\n商品のサイズにより、送料が異なりますので下記料金表をご確認ください。<br>\n通常便より発送までに時間が掛かるため、ご希望の納期に添えない場合がございます。<br>\nご希望納期がある場合、余裕を持ってご注文下さい。<\/p>\n<p><strong>大型家財運賃表<\/storng><\/p>\n<div class=\"deriver_table\">\n<img str=\"\" alt=\"\">\n<\/div>\n<\/section>"
+      }
+    },
+    "16613288274abfe31f": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<section class=\"cancel_tut\">\n<h3>返品、キャンセルについて<\/h3>\n<p>お客様ご都合での返品・交換及びご注文内容の変更はお受けしておりません。<br>\n商品の品質には万全を期しておりますが、万一お届けした商品に不良・誤納等ございました場合は、14桁のオーダーIDを記載の上、商品到着後1週間以内に下記メールアドレスまでご連絡願います。<\/p>\n<p>Mail: xx@xxxxxx.com(営業時間　平日10：30～17：00)<\/p>\n<p>以下の返品・交換は出来兼ねますのでご了承下さい。<br>\n・お客様ご都合での返品、返金、交換<br>\n・商品到着後7日以上経過した商品<br>\n・一度でもご使用になった商品<br>\n・お客様の責任で汚れや傷が生じた商品\n<\/p>\n<\/section>"
       }
     },
     "faq": {
@@ -11,7 +117,7 @@
         "separator-1": {
           "type": "separator",
           "settings": {
-            "title": "Shipping"
+            "title": "よくあるご質問"
           }
         },
         "question-1": {
@@ -35,12 +141,6 @@
             "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
           }
         },
-        "separator-2": {
-          "type": "separator",
-          "settings": {
-            "title": "Product"
-          }
-        },
         "question-4": {
           "type": "question",
           "settings": {
@@ -61,16 +161,35 @@
         "question-1",
         "question-2",
         "question-3",
-        "separator-2",
         "question-4",
         "question-5"
       ],
       "settings": {
+        "show_contact_info": true,
+        "contact_info_heading": "",
+        "contact_info_text": "",
+        "contact_1_icon": "bi-phone",
+        "contact_1_heading": "お電話でお問い合わせ",
+        "contact_1_text": "<p>00-0000-0000<\/p>",
+        "contact_2_icon": "bi-email",
+        "contact_2_heading": "お問い合わせフォーム",
+        "contact_2_text": "<p><a href=\"\/pages\/contact\" title=\"CONTACT\">フォームへ進む<\/a><\/p>"
       }
     }
   },
   "order": [
     "main",
+    "166130980888683cff",
+    "166131290880fada4c",
+    "166131003006feaad7",
+    "1661310221a36e8a24",
+    "16613102934552b88c",
+    "16613104047789fa9f",
+    "1661310408537c268c",
+    "16613210575183ae35",
+    "1661324862e08c5789",
+    "16613266371f779f5c",
+    "16613288274abfe31f",
     "faq"
   ]
 }

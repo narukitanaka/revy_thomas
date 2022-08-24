@@ -202,7 +202,7 @@
           "static-text-with-icons-1"
         ],
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "stack_mobile": false
         }
       }

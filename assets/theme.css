@@ -1250,7 +1250,7 @@ body:not(.is-tabbing) textarea:focus {
 }
 
 .container--narrow {
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .container--extra-narrow {
@@ -13071,7 +13071,7 @@ shopify-payment-terms {
  */
 
 .faq {
-  margin: 40px 0 70px 0;
+  /* margin: 40px 0 70px 0; */
 }
 
 .faq__title {
@@ -13124,7 +13124,7 @@ shopify-payment-terms {
 
 @media screen and (min-width: 641px) {
   .faq {
-    margin: 70px 0 115px 0;
+    /* margin: 70px 0 115px 0; */
   }
 
   .faq__title {
